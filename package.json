@@ -1,0 +1,36 @@
+{
+  "name": "rtslight",
+  "version": "0.1.0",
+  "description": "An RTS Example",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.dev.js",
+    "serve": "webpack --watch --config webpack.serve.js"
+  },
+  "author": "Caio_Aletroca",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "browser-sync": "^2.24.4",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "easystarjs": "^0.4.3",
+    "html-webpack-plugin": "^3.2.0",
+    "p2": "^0.7.1",
+    "phaser": "^3.10.1",
+    "phaser-kinetic-scrolling-plugin": "^1.0.8",
+    "pixi.js": "^4.8.1",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "webfontloader": "^1.6.28",
+    "webpack": "^4.12.0",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.0.6",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  }
+}
